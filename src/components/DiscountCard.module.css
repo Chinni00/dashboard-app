@@ -1,0 +1,59 @@
+.card-component{
+   padding: 1%;
+    width: 25%;
+    margin: 2%;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+ 
+}
+.card{
+   padding: 5%;
+}
+.real-price{
+    text-decoration: line-through;
+    font-size: smaller;
+}
+.discount-price{
+    font-size: large;
+    margin: 2% auto;
+}
+card p ,h2{
+    margin-bottom: 10px;
+   
+}
+.card-head{
+    margin-bottom: 5%;
+}
+.card-price{
+    margin-bottom: 5%;
+}
+.card-btn{
+    height: 2rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+hr{
+    margin: 5%;
+}
+.side-heading{
+    font-size: small;
+    font-weight: 600;
+}
+.users,.email,.data{
+    display: flex;
+    align-items: center;
+    margin: 2% auto;
+}
+.features{
+    margin: 4% 5%;
+    margin-top: 10%;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    display: flex;
+}
